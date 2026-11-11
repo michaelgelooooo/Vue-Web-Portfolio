@@ -6,10 +6,10 @@ import "notyf/notyf.min.css";
 
 const notyf = new Notyf();
 
-const WEB3FORMS_ACCESS_KEY = "c9082d03-0647-4e26-ab1b-3a5090497c52";
-const SITE_KEY = "6LcHkBouAAAAAM_zYaY-KTUH0TJT1WVd0D-ApyEe";
+const WEB3FORMS_ACCESS_KEY = "b215f18a-6065-4340-bbc9-e9c315a444db";
+const SITE_KEY = "6LetvhouAAAAANJyI-ajh5jx0JonWh_9tssusUNq";
 
-const subject = "Message from Portfolio Contact Form";
+const subject = "Message from Vue Web Portfolio";
 
 const name = ref("");
 const email = ref("");
@@ -34,7 +34,7 @@ const submitForm = async () => {
 				subject: subject,
 				name: name.value,
 				email: email.value,
-                inquiry_type: inquiry_type.value,
+				inquiry_type: inquiry_type.value,
 				message: message.value,
 			},
 			{
