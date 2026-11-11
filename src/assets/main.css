@@ -1,0 +1,226 @@
+/* Universal Styles */
+* {
+    font-family: "Outfit", sans-serif;
+    color: #4C4354;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 700;
+
+    color: #1C0F38;
+}
+
+/* Specific Styles */
+section {
+    scroll-margin-top: 72px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #1C0F38;
+}
+
+i {
+    color: inherit;
+}
+
+button,
+a,
+.nav-link,
+.navbar-brand,
+.tool-card,
+.card button {
+    transition: all 0.15s ease;
+}
+
+.card {
+    border: 0.5px solid #EDDCFF !important;
+    border-radius: 16px;
+}
+
+/* Navbar */
+nav .navbar-brand {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 2rem;
+
+    color: #6200A9 !important;
+}
+
+nav .navbar-brand:hover {
+    color: #1C0F38 !important;
+}
+
+nav .nav-link {
+    color: #4C4354 !important;
+}
+
+nav .nav-link:hover {
+    color: #6200A9 !important;
+}
+
+/* Landing */
+#landing {
+    height: 95vh;
+    background-color: #FAF8FF;
+}
+
+#landing h1 {
+    font-size: 3rem;
+}
+
+#landing h3 {
+    font-size: 1.5rem;
+    color: #4C4354;
+}
+
+#landing .btn {
+    border-radius: 8px;
+}
+
+#landing #projects-btn,
+#landing #resume-btn {
+    background-color: #7E22CE;
+    color: white;
+}
+
+#landing #projects-btn:hover,
+#landing #resume-btn:hover {
+    background-color: #1C0F38;
+}
+
+#landing #contact-btn {
+    border: 1px solid #CFC2D6;
+    background-color: white;
+    color: #7E22CE;
+}
+
+#landing #contact-btn:hover {
+    background-color: #E2DFFF;
+}
+
+#landing img {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+}
+
+/* Projects */
+#projects {
+    background-color: #F4EEFB;
+}
+
+#projects .card button,
+#projects .card a {
+    background-color: #E2DFFF;
+    color: #6200A9;
+}
+
+#projects .card button:hover,
+#projects .card a:hover {
+    background-color: #6200A9;
+    color: white;
+}
+
+#projects .card>img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-bottom: 0.5px solid #EDDCFF;
+}
+
+@media (max-width: 575.98px) {
+    #projects .card {
+        flex-direction: row;
+        border-radius: 8px;
+    }
+
+    #projects .card>img {
+        width: 40%;
+        object-fit: cover;
+        border-radius: 8px 0 0 8px;
+        border-bottom: 0;
+        border-right: 0.5px solid #EDDCFF;
+    }
+
+    #projects .card .card-title {
+        font-size: 1rem;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+}
+
+/* Tools */
+#tools {
+    background-color: #EFE8F8;
+}
+
+.tool-card {
+    border: 0.5px solid #EDDCFF !important;
+    border-radius: 8px;
+
+    background-color: #FAF8FF;
+    color: #6200A9;
+}
+
+.tool-card:hover {
+    background-color: #6200A9;
+    color: white;
+}
+
+/* Contact */
+#contact {
+    background-color: #F8F4FD;
+}
+
+#contact .form-label {
+    font-weight: 500;
+    color: #1C0F38;
+}
+
+#contact .form-control {
+    border: 1px solid #CFC2D6;
+    border-radius: 8px;
+    background-color: #FAF8FF;
+}
+
+#contact button {
+    border-radius: 8px;
+    background-color: #7E22CE;
+    font-weight: 500;
+    color: white;
+}
+
+#contact button:hover {
+    background-color: #1C0F38;
+}
+
+#contact iframe {
+    width: 100%;
+    height: 40vh;
+    max-height: 480px;
+    min-height: 240px;
+
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1C0F38;
+}
+
+footer p,
+footer a {
+    color: #CFC2D6;
+}
+
+footer a:hover {
+    color: #7E22CE;
+}
+
+#footer-logo {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 2rem;
+}

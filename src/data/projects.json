@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "E-commerce API Documentation",
+        "description": "The system features dynamic routing for order processing, real-time inventory updates, and secure user authentication.",
+        "image": "/images/project-1.webp",
+        "link": "https://documenter.getpostman.com/view/58908480/2sBYHUSzkS"
+    },
+    {
+        "id": 2,
+        "title": "E-commerce App",
+        "description": "TThe platform features a dynamic product catalog, and a comprehensive admin dashboard.",
+        "image": "/images/project-2.webp",
+        "link": "http://zuitt-bootcamp-prod-645-10072-ochengco.s3-website.us-east-1.amazonaws.com/"
+    },
+    {
+        "id": 3,
+        "title": "Course Booking API Documentation",
+        "description": "RESTful API for managing course enrollments, featuring user registration, authentication, and user detail retrieval.",
+        "image": "/images/project-3.webp",
+        "link": "https://documenter.getpostman.com/view/58908480/2sBYHUTztd"
+    },
+    {
+        "id": 4,
+        "title": "Course booking App",
+        "description": "A MERN-stack course enrollment system featuring user registration, authentication, and profile management.",
+        "image": "/images/project-4.webp"
+    },
+    {
+        "id": 5,
+        "title": "Airline Booking System Mockup",
+        "description": "Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation.",
+        "image": "/images/project-5.webp"
+    },
+    {
+        "id": 6,
+        "title": "Airline Booking System Prototype",
+        "description": "Interactive prototype simulating end-to-end airline booking functionality.",
+        "image": "/images/project-6.webp"
+    }
+]
